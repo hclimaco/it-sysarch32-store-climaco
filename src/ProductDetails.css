@@ -1,0 +1,109 @@
+
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .store-name {
+    font-size: 1.5em;
+  }
+  
+  .cart-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .product-main-content {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .product-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-image {
+    width: 50vw; /* Set the width to 50% of the viewport width */
+    height: 400px; /* Set a fixed height for the main image */
+    text-align: center; /* Center the image horizontally */
+    overflow: hidden; /* Hide overflow if the image is larger than the container */
+  }
+  
+  .main-image img {
+    width: auto; /* Make the image fill its container */
+    height: 100%; /* Maintain aspect ratio */
+  }
+  
+  .thumbnail-images {
+    display: flex;
+    justify-content: flex-start; /* Align thumbnails to the left */
+    margin-top: 10px;
+  }
+  
+  .thumbnail-images img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .product-info {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .add-to-cart-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .related-products {
+    margin-top: 20px;
+  }
+  
+  .featured-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-details {
+    text-align: center;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
